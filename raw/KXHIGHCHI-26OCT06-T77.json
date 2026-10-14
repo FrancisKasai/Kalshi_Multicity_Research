@@ -1,0 +1,134 @@
+{
+  "url": "https://api.elections.kalshi.com/trade-api/v2/series/KXHIGHCHI/markets/KXHIGHCHI-26OCT06-T77/candlesticks?start_ts=1791259200&end_ts=1791266400&period_interval=1",
+  "fetched_at": "2026-10-09T02:39:07.884627+00:00",
+  "body": {
+    "candlesticks": [
+      {
+        "end_period_ts": 1791261840,
+        "open_interest_fp": "435.41",
+        "price": {
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "0.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      },
+      {
+        "end_period_ts": 1791261900,
+        "open_interest_fp": "435.41",
+        "price": {
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "0.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      },
+      {
+        "end_period_ts": 1791262080,
+        "open_interest_fp": "435.41",
+        "price": {
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "0.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      },
+      {
+        "end_period_ts": 1791262320,
+        "open_interest_fp": "435.41",
+        "price": {
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "0.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      },
+      {
+        "end_period_ts": 1791262380,
+        "open_interest_fp": "435.41",
+        "price": {
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "0.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      },
+      {
+        "end_period_ts": 1791262860,
+        "open_interest_fp": "510.41",
+        "price": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "mean_dollars": "0.0100",
+          "open_dollars": "0.0100",
+          "previous_dollars": "0.0100"
+        },
+        "volume_fp": "75.00",
+        "yes_ask": {
+          "close_dollars": "0.0100",
+          "high_dollars": "0.0100",
+          "low_dollars": "0.0100",
+          "open_dollars": "0.0100"
+        },
+        "yes_bid": {
+          "close_dollars": "0.0000",
+          "high_dollars": "0.0000",
+          "low_dollars": "0.0000",
+          "open_dollars": "0.0000"
+        }
+      }
+    ],
+    "ticker": "KXHIGHCHI-26OCT06-T77"
+  }
+}

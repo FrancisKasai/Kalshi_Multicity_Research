@@ -1,0 +1,33 @@
+{
+  "cities": {
+    "KXHIGHCHI": "Chicago",
+    "KXHIGHNY": "New York City",
+    "KXHIGHLAX": "Los Angeles",
+    "KXHIGHMIA": "Miami",
+    "KXHIGHDEN": "Denver",
+    "KXHIGHAUS": "Austin"
+  },
+  "weather_date_start": "2026-01-01",
+  "weather_date_end": "2026-10-07",
+  "entry_hours_before_recorded_close": 24,
+  "max_quote_age_hours": 2,
+  "min_train": 150,
+  "refit_days": 30,
+  "logistic_C": 1.0,
+  "kelly_fraction": 0.25,
+  "assumed_full_spread": 0.02,
+  "assumed_fee_per_contract": 0.005,
+  "initial_bankroll": 10000,
+  "frozen_before_multicity_results": true,
+  "scope_note": "Cities chosen for geographic coverage and existing daily-high series; no selection using returns. All eligible finalized contracts retained, quote failures reported. Previously inspected Chicago Aug-Oct observations are reused; this is expanded retrospective research, not a pristine prospective holdout.",
+  "cohort_defined_at_utc": "2026-10-09T03:00:17.856400+00:00",
+  "primary_measure": "Out-of-sample mean paired Brier score: model minus market",
+  "inference_cluster": "calendar weather date across all cities",
+  "bootstrap_block_days": [
+    7,
+    14
+  ],
+  "bootstrap_repetitions": 2000,
+  "bootstrap_seed": 20261009,
+  "inference_recorded_before_model_execution_utc": "2026-10-09T03:10:30.453588+00:00"
+}

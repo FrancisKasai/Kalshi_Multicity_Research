@@ -1,0 +1,67 @@
+{
+  "data_label": "RESEARCH SAMPLE \u2014 AUDIT REQUIRED",
+  "observations": 10051,
+  "unique_events": 1680,
+  "out_of_sample_observations": 8971,
+  "baseline": {
+    "kelly_fraction": 0.25,
+    "full_spread": 0.02,
+    "fee_per_contract": 0.005,
+    "trades": 4418,
+    "ending_equity": 13004.590000000044,
+    "total_return": 0.3004590000000045,
+    "settlement_max_drawdown": -0.5000537583421198,
+    "settlement_daily_sharpe": 0.9099302358210289
+  },
+  "limitations": [
+    "Real observations use a retrospective cutoff proxy; schedule history and execution are not fully verified.",
+    "Settlement accounting is not mark-to-market; its Sharpe/drawdown are illustrative.",
+    "Historical quote fills, depth, slippage, and exact venue fees are not established.",
+    "Calibration/comparison clusters use weather dates across cities when present; serial dependence is checked separately.",
+    "Cross-venue comparisons are descriptive unless event samples and price types are matched.",
+    "Six cities are still one exchange and one daily-temperature product family; no general market-wide claim.",
+    "January through October 7 does not cover a full year or multiple years.",
+    "The earlier Chicago Aug-Oct sample was already inspected; the expansion is retrospective, not a pristine final holdout.",
+    "Calendar-day clusters retain cross-city dependence; block sensitivity checks do not eliminate seasonality or nonstationarity.",
+    "Recorded settlement-source changes are described, not causally separated from time or city effects.",
+    "Individual binary calibration does not enforce coherent probabilities summing to one across exhaustive outcome buckets."
+  ],
+  "weather_dates": 280,
+  "cities": 6,
+  "out_of_sample_weather_dates": 250,
+  "out_of_sample_city_dates": 1500,
+  "out_of_sample_start": "2026-01-31 04:59:00+00:00",
+  "out_of_sample_end": "2026-10-07 08:00:00+00:00",
+  "primary_comparison": {
+    "method": "Calendar-day clusters across cities",
+    "n_contracts": 8971,
+    "n_weather_dates": 250,
+    "n_city_dates": 1500,
+    "model_minus_market_brier": -0.00014938703400046858,
+    "se": 0.0002495468065943626,
+    "ci_low": -0.0006408786697899818,
+    "ci_high": 0.00034210460178904473,
+    "p_value": 0.5499616088242513,
+    "n_clusters": 250
+  },
+  "block_bootstrap_7_days": {
+    "method": "7-day moving-block bootstrap",
+    "block_days": 7,
+    "model_minus_market_brier": -0.00014938703400046858,
+    "ci_low": -0.0006482418310765545,
+    "ci_high": 0.0003783894134300422,
+    "repetitions": 2000,
+    "seed": 20261009,
+    "n_calendar_days": 250
+  },
+  "block_bootstrap_14_days": {
+    "method": "14-day moving-block bootstrap",
+    "block_days": 14,
+    "model_minus_market_brier": -0.00014938703400046858,
+    "ci_low": -0.000636101978139044,
+    "ci_high": 0.0004527215313326986,
+    "repetitions": 2000,
+    "seed": 20261009,
+    "n_calendar_days": 250
+  }
+}
